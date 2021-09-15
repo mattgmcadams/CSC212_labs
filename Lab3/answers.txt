@@ -1,0 +1,38 @@
+Questions
+
+1.  Which of the three implementation above is the "best"?
+        The constant pointer seems like the best, safest implementation (with reference as a close second)
+
+2.  Why is it safer to use a constant pointer over a pointer?
+        The constant pointer can't be changed by mistake in code, safeguarding for errors
+
+3.  When would you use a pointer over a constant pointer?
+        when you want the pointer to be changed in the program
+
+4.  What is the Big-O for the BubbleSort() function above?
+        O(n^2)
+
+5.  Could this run-time be improved at all without changing the strategy?
+        No
+
+6.  Are these 2 implementations doing the same work
+
+7.  Implement these algorithms in C++
+        Attached
+
+8.  Now that you understand Insertion Sort well, implement its recursive version.
+        A
+        
+9.  Implement a function InsertionSort(double &arr, bool reverse); 
+    that will execute Selection sort when argument reverse is false. 
+    When reverse is true it should produce a reverse sorted array 
+    (using the same principles as selection sort).
+        Attached
+    
+    
+    
+    
+    
+    
+    
+

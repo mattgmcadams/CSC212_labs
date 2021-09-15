@@ -1,0 +1,29 @@
+✅Question 1. What is the difference between "pass-by-value" and "pass-by-reference"?
+    "pass-by-value" passes the actual value (ex. makes a copy of a vector), while "pass-by-reference" will pass the address where the data (ex. the vector) is stored
+
+✅Question 2. In your own words, what is the difference between a 'pointer', a 'const pointer', and a 'reference'?
+    A pointer is a memory address, a const pointer is a memory address which cannot be changed or operated on, and a reference is
+
+✅Question 3. What are the pros & cons of passing by reference?
+    pros - save time
+    cons - possible to change values unintentionally
+
+✅Question 4. What are some of the strengths & weaknesses you can come up with for this type of data structure?
+    strengths - no memory waste
+    weaknesses - cannot randomly access any info, must traverse the list
+
+✅Question 5. What are some possible terminating conditions you can think of for various operations you may perform on this data structure?
+
+
+✅Question 6. Think of a use case for each of these types of linked lists.
+
+
+✅Question 7. What is the condition to use in a while loop that will get us to the last node in the list? Note: if we reach nullptr, we've gone too far!
+    while(temp.next)
+
+✅Question 8. What is the condition to use in a while loop that will get us to the correct location to perform insertion?
+    while(i<idx)
+        i++
+
+✅Question 9. What is the condition to use in a while loop that will get us to the correct location to perform deletion?
+
